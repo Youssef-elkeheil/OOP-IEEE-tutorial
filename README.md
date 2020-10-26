@@ -494,8 +494,11 @@ int main() {
 
 - It is considered good practice to declare your class attributes as private (as often as you can). Encapsulation ensures better control of your data, because you (or others) can change one part of the code without affecting other parts
 - Increased security of data
+
 # Inheritance
+
 ## What is Inheritance?
+
 In C++, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
 
 - derived class (child) - the class that inherits from another class
@@ -503,6 +506,7 @@ In C++, it is possible to inherit attributes and methods from one class to anoth
 To inherit from a class, use the `:` symbol.
 
 In the example below, the  `Car` class (child) inherits the attributes and methods from the `Vehicle` class (parent):
+
 ### **Example**
 ```c++
 // Base class
@@ -529,10 +533,12 @@ int main() {
 ```
 >### Why And When To Use "Inheritance"?
 > It is useful for code reusability: reuse attributes and methods of an existing class when you create a new class.
+
 ## Multilevel Inheritance
 A class can also be derived from one class, which is already derived from another class.
 
 In the following example, `MyGrandChild` is derived from class `MyChild` (which is derived from `MyClass`).
+
 ### **Example**
 ```c++
 // Base class (parent)
@@ -590,6 +596,7 @@ int main() {
 ```
 ## Protected Members
 Until now, we have only used `public` (members of a class are accessible from outside the class) and `private` (members can only be accessed within the class). The third specifier, `protected`, is similar to `private`, but it can also be accessed in the inherited class:
+
 ### **Example**
 ```c++
 // Base class
