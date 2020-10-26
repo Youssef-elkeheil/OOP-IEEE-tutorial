@@ -244,9 +244,11 @@ A constructor is different from normal functions in following ways:
 - A constructor is automatically called when an object is created.
 
 **Types of Constructors**
+
 - Empty (Default) Constructor
 - Parameeterized Constructor
 - Copy Constructor
+
 ## Empty Constructor
 Empty constructor is the constructor which doesn’t take any argument. It has no parameters.
 
