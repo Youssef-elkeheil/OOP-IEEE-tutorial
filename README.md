@@ -97,8 +97,8 @@ In C++, an object is created from a class. We have already created the class nam
 To create an object of `MyClass`, specify the class name, followed by the object name.
 
 To access the class attributes (`myNum` and `myString`), use the dot syntax (.) on the object:
->### **Example**
->Create an object called "`myObj`" and access the attributes:
+### **Example**
+Create an object called "`myObj`" and access the attributes:
 
 ```c++
 class MyClass {       // The class
