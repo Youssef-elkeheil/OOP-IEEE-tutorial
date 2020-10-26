@@ -229,6 +229,7 @@ int main() {
 >- public - members are accessible from outside the class
 >- private - members cannot be accessed (or viewed) from outside the class
 >- protected - members cannot be accessed from outside the class, however, they can be accessed in inherited classes. You will learn more about Inheritance later.
+
 # Constructors
 ## What is constructor?
 
@@ -266,7 +267,7 @@ int main() {
   return 0;
 }
 ```
-> **Constructors** main use is to set initial values for attributes.
+>**Constructors** main use is to set initial values for attributes.
 
 ## Parameterized Constructor
 It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.
