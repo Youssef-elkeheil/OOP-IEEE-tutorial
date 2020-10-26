@@ -46,7 +46,7 @@ Classes and objects are the two main aspects of object-oriented programming.
 
 **Look at the following illustration to see the difference between class and objects:**
 
-![fruit example](C:\Users\Youssef\Desktop\fruit.png)
+![fruit example](car.png)
 
 **Another example:**
 
