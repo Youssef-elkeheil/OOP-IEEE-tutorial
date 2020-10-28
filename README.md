@@ -22,7 +22,9 @@
   * [Multiple Inheritance](#sub-heading-1)
   * [Protected Members](#sub-heading-1)
 - [Separate Header and Implementation Files](#heading)
-
+  * [Header File](#sub-heading-1) 
+  * [Implementation File](#sub-heading-1)
+  * [client Code](#sub-heading-1)
 # What is OOP?
 
 OOP stands for Object-Oriented Programming.
