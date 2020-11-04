@@ -109,7 +109,7 @@ class Car {       // The class
 };
 
 int main() {
-  MyClass M5;  // Create an object of Car
+  Car M5;  // Create an object of Car
 
   // Access attributes and set values
   M5.Model = 2020; 
@@ -143,8 +143,8 @@ int main() {
 
   // Create another object of Car
   Car carObj2;
-  carObj2.brand = "Ford";
-  carObj2.model = "Mustang";
+  carObj2.brand = "Fiat";
+  carObj2.model = "128";
   carObj2.year = 1969;
 
   // Print attribute values
