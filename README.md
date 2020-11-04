@@ -102,6 +102,9 @@ To access the class attributes (`Model` and `Brand`), use the dot syntax (`.`) o
 Create an object called "`M5`" and access the attributes:
 
 ```c++
+#include <iostream>
+using namespace std;
+
 class Car {       // The class
   public:             // Access specifier
     int Model;        // Attribute (int variable)
@@ -169,6 +172,9 @@ In the following example, we define a function inside the class, and we name it 
 
 ###  **Inside Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 class MyClass {        // The class
   public:              // Access specifier
     void Print() {  // Method/function defined inside the class
@@ -186,6 +192,9 @@ To define a function outside the class definition, you have to declare it inside
 
 ### **Outside Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 class MyClass {        // The class
   public:              // Access specifier
     void Print();   // Method/function declaration
@@ -255,6 +264,9 @@ Empty constructor is the constructor which doesn’t take any argument. It has n
 To create a Empty constructor, use the same name as the class, followed by parentheses `()`:
 ### **Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 class Rectangle {     // The class
   public:   // Access specifier
   int Length,Width;      //Variables     
@@ -275,6 +287,9 @@ int main() {
 It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.
 ### **Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 class Car {        // The class
   public:          // Access specifier
     string brand;  // Attribute
@@ -303,6 +318,9 @@ int main() {
 Just like functions, constructors can also be defined outside the class. First, declare the constructor inside the class, and then define it outside of the class by specifying the name of the class, followed by the scope resolution `::` operator, followed by the name of the constructor (which is the same as the class):
 ### **Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 class Car {        // The class
   public:          // Access specifier
     string brand;  // Attribute
@@ -423,6 +441,7 @@ If we do not write our own destructor in class, compiler creates a default destr
 ```c++
 #include <iostream>
 using namespace std;
+
 class HelloWorld{
 public:
   //Constructor
@@ -505,6 +524,9 @@ In the example below, the  `Car` class (child) inherits the attributes and metho
 
 ### **Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 // Base class
 class Vehicle {
   public:
@@ -537,6 +559,9 @@ In the following example, `MyGrandChild` is derived from class `MyChild` (which 
 
 ### **Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 // Base class (parent)
 class MyClass {
   public:
@@ -563,6 +588,9 @@ int main() {
 A class can also be derived from more than one base class, using a **comma-separated list** (`,`):
 ## **Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 // Base class
 class MyClass {
   public:
@@ -595,6 +623,9 @@ Until now, we have only used `public` (members of a class are accessible from ou
 
 ### **Example**
 ```c++
+#include <iostream>
+using namespace std;
+
 // Base class
 class Employee {
   protected: // Protected access specifier
