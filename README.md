@@ -258,14 +258,14 @@ To create a Empty constructor, use the same name as the class, followed by paren
 class Rectangle {     // The class
   public:   // Access specifier
   int Length,Width;      //Variables     
-  MyClass() {     // Constructor
+  Rectangle() {     // Constructor
     Length = 0;
     Width = 0;
     }
 };
 
 int main() {
-  MyClass MyRec;    // Create an object of Rectangle (this will call the constructor)
+  Rectangle MyRec;    // Create an object of Rectangle (this will call the constructor)
   return 0;
 }
 ```
