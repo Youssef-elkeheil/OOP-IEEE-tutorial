@@ -129,6 +129,9 @@ You can create multiple objects of one class:
 ### **Example**
 
 ```c++
+#include <iostream>
+using namespace std;
+
 // Create a Car class with some attributes
 class Car {
   public:
