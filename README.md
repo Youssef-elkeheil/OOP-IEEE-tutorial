@@ -191,7 +191,7 @@ int main() {
   return 0;
 }
 ```
-To define a function outside the class definition, you have to declare it inside the class and then define it outside of the class. This is done by specifiying the name of the class, followed the scope resolution `::` operator, followed by the name of the function:
+To define a function outside the class definition, you have to declare it inside the class and then define it outside of the class. This is done by specifiying the name of the class, followed the scope resolution operator `::`, followed by the name of the function:
 
 ### **Outside Example**
 ```c++
@@ -318,7 +318,7 @@ int main() {
 ```
 >**Note:** The constructor has the same name as the class, it is always public, and it does not have any return value.
 
-Just like functions, constructors can also be defined outside the class. First, declare the constructor inside the class, and then define it outside of the class by specifying the name of the class, followed by the scope resolution `::` operator, followed by the name of the constructor (which is the same as the class):
+Just like functions, constructors can also be defined outside the class. First, declare the constructor inside the class, and then define it outside of the class by specifying the name of the class, followed by the scope resolution operator`::` , followed by the name of the constructor (which is the same as the class):
 ### **Example**
 ```c++
 #include <iostream>
