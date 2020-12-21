@@ -1,4 +1,4 @@
-## Tabel Of Content
+## Table Of Content
 
 - [What is OOP?](#heading)
 - [What are Classes and Objects?](#heading)
